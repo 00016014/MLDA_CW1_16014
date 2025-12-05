@@ -1,6 +1,7 @@
 ## Online Shoppers Purchase Intention Prediction
 
 This project focuses on analysing user browsing behaviour to predict whether an online shopper will complete a purchase during their session. The work includes <strong>data exploration, preprocessing, model training, feature selection, evaluation</strong>, and finally deploying a prediction interface through a Streamlit web application.
+<br>
 
 Streamlit App Link (may take a few seconds to start if inactive):
 `https://mlda-cw1-16014-online-shoppers-intention.streamlit.app/`
@@ -10,12 +11,12 @@ pip install -r requirements.txt
 streamlit run online_shoppers_intention_ui_app.py
 ```
 <br>
-```
+
 ### Project Overview
 The goal of this project is to classify whether a visitor will generate revenue  like purchase = 1, no purchase = 0. The dataset contains behavioural, technical, and session-related features collected from an e-commerce website.
-```
+
 Dataset source: Online Shoppers Purchasing Intention Data Set (UCI Machine Learning Repository).
-dataset link: `https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset`
+- dataset link: `https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset`
 <br>
 
 ##### Three machine learning algorithms were trained and compared:
@@ -26,10 +27,10 @@ dataset link: `https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasin
 
 <strong> Random Forest achieved the best performance and was selected for deployment. </strong>
 <br>
-```
+
 ### Dataset Description
 The dataset contains 12,330 sessions and 18 attributes, categorized as:
-
+```
 - Numerical Features
 - Administrative, Administrative_Duration, Informational, Informational_Duration, ProductRelated, ProductRelated_Duration, BounceRates, ExitRates, PageValues, SpecialDay.
 ```
